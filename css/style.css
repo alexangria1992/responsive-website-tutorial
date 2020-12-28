@@ -3,8 +3,28 @@ body
 {
     font-size: 1.25rem;
     color: #707070;
-    /* margin: 0; */
+    margin: 0;
+    background: pink;
+
 }
+
+
+/* From a minimum width of 650px and bigger */
+
+@media(min-width: 500px )
+{
+    body {
+        background: orange;
+    }
+}
+
+/* From a minimum width of 400px and bigger */
+@media (min-width: 500px) and ( max-width: 649px){
+    body {
+        background: purple;
+    }
+}
+
 
 h1 span 
 {
@@ -80,3 +100,5 @@ img
     color: #fff;
     padding: 1rem;
 }
+
+
